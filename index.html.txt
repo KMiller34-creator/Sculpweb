@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sculpt in 6 – Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #d4af37;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: #000;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #fff;
+    }
+    header p {
+      color: #d4af37;
+      font-size: 1.25rem;
+      margin-top: 10px;
+    }
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta button {
+      background-color: #d4af37;
+      color: black;
+      padding: 12px 30px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      color: #aaa;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Sculpt in 6</strong></div>
+    <div>
+      <a href="workouts.html">Workouts</a>
+      <a href="nutrition.html">Nutrition</a>
+      <a href="checkin.html">Progress</a>
+      <a href="motivation.html">Motivation</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Welcome to Sculpt in 6</h1>
+    <p>Your Summer Body Transformation Starts Now</p>
+  </header>
+
+  <div class="cta">
+    <p>Ready to join the challenge?</p>
+    <a href="workouts.html"><button>Enroll Now</button></a>
+  </div>
+
+  <footer>
+    &copy; 2025 Sculpt in 6. All rights reserved.
+  </footer>
+</body>
+</html>
